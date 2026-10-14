@@ -1,0 +1,31 @@
+name: aerova_app
+description: Aerova aviation mobile app built with Flutter, GetX and Dio.
+publish_to: "none"
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.3.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  get: ^4.6.6
+  dio: ^5.4.3
+  flutter_svg: ^2.0.10
+  google_fonts: ^6.2.1
+  qr_flutter: ^4.1.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+  # Assets are grouped per screen so each screen owns its own files.
+  assets:
+    - assets/svg/common/
+    - assets/svg/splash/
+    - assets/svg/onboarding/
+    - assets/svg/home/
+    - assets/svg/live_map/
